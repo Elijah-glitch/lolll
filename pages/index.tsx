@@ -113,7 +113,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
           className="font-semibold hover:text-white"
           rel="noreferrer"
         >
-          hi
+          Jenny Morgan
         </a>
         , and{' '}
         <a
