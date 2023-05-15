@@ -27,7 +27,6 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
   }, [photoId, lastViewedPhoto, setLastViewedPhoto])
 
   return (
-    <>
       <Head>
         <title>Next.js Conf 2022 Photos</title>
         <meta
