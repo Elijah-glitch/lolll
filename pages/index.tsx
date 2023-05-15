@@ -30,14 +30,14 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
   return (
     <>
       <Head>
-        <title>Next.js Conf 2022 Photos</title>
+        <title>Tcapsmovies 2023 Photos</title>
         <meta
           property="og:image"
-          content="https://nextjsconf-pics.vercel.app/og-image.png"
+          content="https://res.cloudinary.com/dqgre4b9j/image/upload/Hi/126F3D74-F144-4A11-A0C8-69F2FE44360E_b5djvm.png"
         />
         <meta
           name="twitter:image"
-          content="https://nextjsconf-pics.vercel.app/og-image.png"
+          content="https://res.cloudinary.com/dqgre4b9j/image/upload/Hi/126F3D74-F144-4A11-A0C8-69F2FE44360E_b5djvm.png"
         />
       </Head>
       <main className="mx-auto max-w-[1960px] p-4">
@@ -86,7 +86,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
                 blurDataURL={blurDataUrl}
                 src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_720/${public_id}.${format}`}
                 width={720}
-                height={480}
+                height={720}
                 sizes="(max-width: 640px) 100vw,
                   (max-width: 1280px) 50vw,
                   (max-width: 1536px) 33vw,
@@ -99,30 +99,30 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
       <footer className="p-6 text-center text-white/80 sm:p-12">
         Thank you to{' '}
         <a
-          href="https://edelsonphotography.com/"
+          href="https://tcapsmovies.shop"
           target="_blank"
           className="font-semibold hover:text-white"
           rel="noreferrer"
         >
-          Josh Edelson
+          Tcapsmovies adsense
         </a>
         ,{' '}
         <a
-          href="https://www.newrevmedia.com/"
+          href="https://www.tcapsmovies.site"
           target="_blank"
           className="font-semibold hover:text-white"
           rel="noreferrer"
         >
-          Jenny Morgan
+          Tcapsmovies vps
         </a>
         , and{' '}
         <a
-          href="https://www.garysextonphotography.com/"
+          href="https://www.Tcapsmovies.com/"
           target="_blank"
           className="font-semibold hover:text-white"
           rel="noreferrer"
         >
-          Gary Sexton
+Tcapsmovies database
         </a>{' '}
         for the pictures.
       </footer>
